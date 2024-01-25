@@ -1,6 +1,8 @@
-# AngularBlog
+# Angular Blog
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
+
+Based on dribbble project [Blog Layout](https://dribbble.com/shots/18089191-Blog-Layout), thanks [Dwinawan](https://dribbble.com/dwinawan).
 
 ## Development server
 

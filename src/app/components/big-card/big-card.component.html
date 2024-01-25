@@ -1,21 +1,17 @@
 <div class="container__big-card">
-
   <div class="big-card__photo">
-    <img
-    src="https://media.licdn.com/dms/image/D4E12AQGx_XxlH8rHLw/article-cover_image-shrink_600_2000/0/1699328092463?e=2147483647&v=beta&t=ZZi_XzY235cTKt324objag2rEP0wyrQDB2XCHUNW3cA"
-    height="200px"
-    alt=""
-    />
+    <img src="{{ photoCover }}" height="200px" alt="" />
   </div>
 
-
-    <div class="big-card__title">
-      <h1><a href="#">Saiu a nova versão do Angular</a></h1>
-    </div>
-
+  <div class="big-card__title">
+    <h1>
+      <a [routerLink]="['content', Id]">{{ cardTitle }}</a>
+    </h1>
+  </div>
 
   <div class="big-card__description">
-    <p><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, deleniti illo repudiandae labore placeat aut officiis laudantium repellat animi tenetur consequatur quisquam non fugit molestias nihil, aliquam repellendus recusandae ipsam.</a></p>
+    <p>
+      <a [routerLink]="['content', Id]">{{ cardDescription }}</a>
+    </p>
   </div>
-
 </div>
